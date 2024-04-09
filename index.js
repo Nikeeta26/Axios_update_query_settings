@@ -26,6 +26,7 @@ Button.addEventListener("click",async ()=>{
 async function getcollage(country){
     try{
         let res = await axios.get(u+country);
+        console.log(res);
        return res.data;
     }
     catch(e){
