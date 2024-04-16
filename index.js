@@ -15,13 +15,11 @@ Button.addEventListener("click",async ()=>{
              let li = document.createElement("li");
              li.innerText = col.name;
              list.appendChild(li);
-    
         }
     }
    show(colArr);
    
 });
- 
 
 async function getcollage(country){
     try{
